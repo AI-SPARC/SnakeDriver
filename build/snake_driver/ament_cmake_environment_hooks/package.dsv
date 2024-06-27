@@ -1,0 +1,4 @@
+source;share/snake_driver/local_setup.bash
+source;share/snake_driver/local_setup.dsv
+source;share/snake_driver/local_setup.sh
+source;share/snake_driver/local_setup.zsh
