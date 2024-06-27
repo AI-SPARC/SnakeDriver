@@ -1,9 +1,0 @@
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/uninstall.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/snake_driver_uninstall.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/test.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/edit_cache.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/rebuild_cache.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/list_install_components.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/install.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/install/local.dir
-/home/momesso/snake_driver/build/snake_driver/CMakeFiles/install/strip.dir
