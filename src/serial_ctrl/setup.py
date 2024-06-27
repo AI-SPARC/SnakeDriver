@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'serial_ctrl = serial_ctrl.serial_ctrl_py:main'
+            'serial_ctrl = roarm_m2_wrapper.serial_ctrl_py:main',
+            'position_listener = roarm_m2_wrapper.position_listener:main'
         ],
     },
 )
