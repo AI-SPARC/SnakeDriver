@@ -1,0 +1,25 @@
+[0.573s] Invoking command in '/home/momesso/snake_driver/src/serial_ctrl': PYTHONPATH=/home/momesso/snake_driver/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/momesso/snake_driver/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/momesso/snake_driver/build/serial_ctrl/build install --record /home/momesso/snake_driver/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[0.755s] running egg_info
+[0.766s] writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO
+[0.766s] writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt
+[0.766s] writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt
+[0.766s] writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt
+[0.766s] writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt
+[0.789s] reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[0.790s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[0.790s] running build
+[0.790s] running build_py
+[0.790s] copying serial_ctrl/__init__.py -> /home/momesso/snake_driver/build/serial_ctrl/build/lib/serial_ctrl
+[0.790s] copying serial_ctrl/serial_ctrl_py.py -> /home/momesso/snake_driver/build/serial_ctrl/build/lib/serial_ctrl
+[0.790s] running install
+[0.794s] running install_lib
+[0.806s] running install_data
+[0.806s] copying resource/serial_ctrl -> /home/momesso/snake_driver/install/serial_ctrl/share/ament_index/resource_index/packages
+[0.806s] copying package.xml -> /home/momesso/snake_driver/install/serial_ctrl/share/serial_ctrl
+[0.806s] running install_egg_info
+[0.818s] removing '/home/momesso/snake_driver/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.819s] Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/momesso/snake_driver/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info
+[0.819s] running install_scripts
+[0.919s] Installing serial_ctrl script to /home/momesso/snake_driver/install/serial_ctrl/lib/serial_ctrl
+[0.919s] writing list of installed files to '/home/momesso/snake_driver/build/serial_ctrl/install.log'
+[0.939s] Invoked command in '/home/momesso/snake_driver/src/serial_ctrl' returned '0': PYTHONPATH=/home/momesso/snake_driver/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/momesso/snake_driver/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/momesso/snake_driver/build/serial_ctrl/build install --record /home/momesso/snake_driver/build/serial_ctrl/install.log --single-version-externally-managed install_data

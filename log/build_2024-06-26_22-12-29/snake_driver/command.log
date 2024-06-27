@@ -1,0 +1,4 @@
+Invoking command in '/home/momesso/snake_driver/build/snake_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/momesso/snake_driver/build/snake_driver -- -j8 -l8
+Invoked command in '/home/momesso/snake_driver/build/snake_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/momesso/snake_driver/build/snake_driver -- -j8 -l8
+Invoking command in '/home/momesso/snake_driver/build/snake_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/momesso/snake_driver/build/snake_driver
+Invoked command in '/home/momesso/snake_driver/build/snake_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/momesso/snake_driver/build/snake_driver
