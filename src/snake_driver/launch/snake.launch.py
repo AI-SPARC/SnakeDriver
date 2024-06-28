@@ -16,13 +16,17 @@ def generate_launch_description():
   # Set the path to this package.
   pkg_share = FindPackageShare(package='snake_driver').find('snake_driver')
  
+  default_rviz_config_path = os.path.join(pkg_share, 'rviz/config.rviz')
+ 
+  
   # Set the path to the URDF file
-  default_urdf_model_path = os.path.join(pkg_share, 'urdf/snake.urdf')
+  default_urdf_model_path = os.path.join(pkg_share, 'urdf/snake_robot.urdf')
  
   ########### YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE ##############  
   # Launch configuration variables specific to simulation
   gui = LaunchConfiguration('gui')
   urdf_model = LaunchConfiguration('urdf_model')
+  rviz_config_file = LaunchConfiguration('rviz_config_file')
   use_robot_state_pub = LaunchConfiguration('use_robot_state_pub')
   use_rviz = LaunchConfiguration('use_rviz')
   use_sim_time = LaunchConfiguration('use_sim_time')
@@ -33,10 +37,10 @@ def generate_launch_description():
     default_value=default_urdf_model_path, 
     description='Absolute path to robot urdf file')
      
-  # declare_rviz_config_file_cmd = DeclareLaunchArgument(
-  #   name='rviz_config_file',
-  #   default_value=default_rviz_config_path,
-  #   description='Full path to the RVIZ config file to use')
+  declare_rviz_config_file_cmd = DeclareLaunchArgument(
+     name='rviz_config_file',
+     default_value=default_rviz_config_path,
+     description='Full path to the RVIZ config file to use')
      
   declare_use_joint_state_publisher_cmd = DeclareLaunchArgument(
     name='gui',
@@ -90,14 +94,14 @@ def generate_launch_description():
     executable='rviz2',
     name='rviz2',
     output='screen',
-  )
+    arguments=['-d', rviz_config_file])
    
   # Create the launch description and populate
   ld = LaunchDescription()
  
   # Declare the launch options
   ld.add_action(declare_urdf_model_path_cmd)
-  # ld.add_action(declare_rviz_config_file_cmd)
+  ld.add_action(declare_rviz_config_file_cmd)
   ld.add_action(declare_use_joint_state_publisher_cmd)
   ld.add_action(declare_use_robot_state_pub_cmd)  
   ld.add_action(declare_use_rviz_cmd) 
